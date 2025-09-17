@@ -1,16 +1,41 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <title>Portafolio de Jesús Rodríguez</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Portafolio Electrónico</h1>
-  <ul>
-    <li><a href="unidad1/clase1.html">Unidad 1 - Clase 1</a></li>
-    <li><a href="unidad1/clase2.html">Unidad 1 - Clase 2</a></li>
-    <!-- Continúa con los demás enlaces -->
-  </ul>
+  <header>
+    <h1>📘 Portafolio Electrónico de Arquitectura de Software</h1>
+    <button onclick="toggleDarkMode()">🌗 Modo Claro/Oscuro</button>
+  </header>
+
+  <main>
+    <section class="modulos">
+      <div class="modulo" onclick="location.href='unidad1/index.html'">
+        <h2>Unidad 1</h2>
+        <p>Fundamentos y clases introductorias.</p>
+      </div>
+      <div class="modulo" onclick="location.href='unidad2/index.html'">
+        <h2>Unidad 2</h2>
+        <p>Contenido intermedio y análisis aplicado.</p>
+      </div>
+      <div class="modulo" onclick="location.href='unidad3/index.html'">
+        <h2>Unidad 3</h2>
+        <p>Casos prácticos y herramientas digitales.</p>
+      </div>
+      <div class="modulo" onclick="location.href='unidad4/index.html'">
+        <h2>Unidad 4</h2>
+        <p>Síntesis final y propuestas de mejora.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jesús Rodríguez</p>
+  </footer>
 </body>
 </html>
+
